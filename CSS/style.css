@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif !important;
+}
+.resume{
+    padding: 0 30px 0 30px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.card-img-top{
+    max-width: 100%;
+}
+#card-Fs{
+    text-align: center;
+    background-color: rgba(117, 249, 242, 1);
+    font-weight: 900;
+}
+#image_Ss{
+    border-radius: 10% !important;
+}
+.card{
+    border: none !important;
+}
+h2{
+    text-align: center;
+    width: 100%;
+    padding: 25px 8px;
+    margin: 0 !important;
+}
+
+header{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+header .navbar{
+        height: 100%;
+        padding: 0px;
+        z-index: 100;
+}
+
+header #navbarNavAltMarkup{
+    position: relative;
+    z-index: 100;
+    justify-content: flex-end;
+}
+
+/*Seccion montessori*/
+#secctionFirt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#imgEncabezadoM{
+    width: 100%;
+}
+#titleMont{
+    text-align: center;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.substitute{
+    text-align: center;
+    padding: 5%;
+}
+
+#cardHerramientas{
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+
+.secctionThird{
+    margin-top: 3%;
+    background-color: #eef6b0;
+    padding: 3%;
+}
+
+.imgMonte:hover{
+    transition: all 300ms;
+    transform: scale(1.05);
+}
+
+
+/*Seccion pikler*/
+#sectionPikler{
+    margin: 0% !important;
+}
+
+.sectionBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(117, 249, 242, 1); 
+    text-align: center;
+    padding: 5%;
+}
+
+
+.imgPikler{
+    width: 100%;
+}
+
+#titlePikler{
+    text-align: center;
+    width: 100%;
+}
+
+#imgEncabezado{
+    width: 100%;
+}
+
+#text{
+    text-align: center;
+    padding: 3% 7% 3%;
+    background-color: #FADDB5;
+}
+
+/*Seccion Nosotros*/
+#titleNos{
+    text-align: center;
+    width: 100%;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: bold;
+    margin-top:5%;
+    margin-bottom: 3%;
+}
+
+#encabezadoNos{
+    width: 100%;
+}
+#secondSectionA{
+    width: 100%;
+}
+#substituteNos{
+    text-align: center;
+}
+
+#secondSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sectionObj{
+    display: flex;
+    flex-direction: row;
+}
+
+.circular{
+    border-radius: 50%;
+    width: 34%;
+    height: 50%;
+    row-gap: 10%;
+}
+
+#secondSectionB{
+    margin: 5%;
+    text-align: center;
+    font-size: 21px;
+}
+
+
